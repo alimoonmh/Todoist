@@ -1,0 +1,54 @@
+body{
+    font-family: var(--font-family);
+    margin: 0;
+}
+.main-div{
+    height: 900px;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.today{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sa;
+    color: rgb(255, 255, 255);
+}
+.date{
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(158, 165, 171);
+}
+.navbar-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+margin-top: 70px;
+}
+.input-txt{
+    margin-top: 15px;
+}
+.taske{
+    display: flex;
+flex-direction: row;
+}
+.btn-task-check{
+    margin-top: 142px;
+margin-left: -110px;
+}
+.p-task{
+    color: rgb(255, 255, 255);
+
+}
+.btn-task{
+   margin-top: 250px;
+}
+.div-task{
+    display: flex;
+    column-gap: 15px;
+    align-items: stretch;
+}
